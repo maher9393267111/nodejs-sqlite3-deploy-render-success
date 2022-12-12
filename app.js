@@ -231,6 +231,9 @@ app.post("/return-item", (req, res) => {
     res.send({ code: "lol", message: "item could not be deleted" });
   }
 });
-app.listen(5000, () => {
+
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
   console.log("Server online at 5000");
 });
