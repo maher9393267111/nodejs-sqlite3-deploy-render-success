@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
   res.send({ code: "heyy man!" });
 });
 
+app.get("/*", (req, res) => {
+  res.send({ code: "heyy man!" });
+});
+
 
 
 
