@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/*", (req, res) => {
-  res.send({ code: "heyy man!" });
+  res.send({ code: "heyy man !!!!!" });
 });
 
 
