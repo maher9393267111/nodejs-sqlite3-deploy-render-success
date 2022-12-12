@@ -11,8 +11,11 @@ const Database = require("better-sqlite3");
 const db = new Database("rentify.db", { verbose: console.log });
 
 app.get("/", (req, res) => {
-  res.send({ code: "heyy!" });
+  res.send({ code: "heyy man!" });
 });
+
+
+
 
 // app.post("/signup", async (req, res) => {
 //   const { username, password, name , phonenumber } = req.body;
